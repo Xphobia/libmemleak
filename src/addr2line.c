@@ -26,7 +26,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <libiberty/demangle.h>
+// #include <libiberty/demangle.h>
+#include <demangle.h>
 #include <assert.h>
 #include <ctype.h>
 #include <execinfo.h>
