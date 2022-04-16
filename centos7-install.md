@@ -1,7 +1,7 @@
 
 # 0. Install build requirements
 ```
-[root@xphobia ~]#  yum install -y doxygen readline-devel
+[root@xphobia ~]#  yum install -y doxygen readline-devel binutils-devel
 ```
 
 # 1. Get source code
