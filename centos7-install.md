@@ -61,7 +61,7 @@ compilation terminated.
 [root@xphobia src]# LD_PRELOAD='/usr/local/lib/libmemleak.so' ./hello
 ```
 
-在第二个shell终端执行start开始检测，执行stop停止检测
+在第二个shell终端执行start开始检测，执行stop停止检测，执行dump可以查看可疑的调用栈
 ```
 [root@xphobia src]# ./memleak_control 
 libmemleak> start
