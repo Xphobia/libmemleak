@@ -1,4 +1,9 @@
 
+# 0. Install build requirements
+```
+[root@xphobia ~]#  yum install -y doxygen readline-devel
+```
+
 # 1. Get source code
 ```
 [root@xphobia ~]# git clone --recursive -b develop git@github.com:Xphobia/libmemleak.git
