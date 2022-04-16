@@ -47,3 +47,9 @@ compilation terminated.
 ```
 报错参考：https://github.com/strace/strace/issues/92
 这里简单修改为：  #include <demangle.h>
+
+# 4. Compile and install
+```
+[root@xphobia libmemleak-objdir]# make
+[root@xphobia libmemleak-objdir]# make install
+```
